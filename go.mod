@@ -8,6 +8,7 @@ require (
 	github.com/go-xorm/xorm v0.7.9
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
+	golang.org/x/net v0.0.0-20200625001655-4c5254603344 // indirect
 	k8s.io/api v0.18.9
 	k8s.io/apimachinery v0.18.9
 	k8s.io/apiserver v0.18.9
@@ -15,7 +16,7 @@ require (
 	k8s.io/klog v1.0.0
 	kmodules.xyz/client-go v0.0.0-20201007024140-3223988adf40
 	kmodules.xyz/custom-resources v0.0.0-20200922210108-70f2815a43bb
-	kubedb.dev/apimachinery v0.14.0-beta.3.0.20201007223912-7d9095af5d5f
+	kubedb.dev/apimachinery v0.14.0-beta.3.0.20201007234719-34bf142ede67
 )
 
 replace bitbucket.org/ww/goautoneg => gomodules.xyz/goautoneg v0.0.0-20120707110453-a547fc61f48d
